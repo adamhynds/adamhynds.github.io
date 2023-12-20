@@ -1,0 +1,95 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  margin-bottom: 30px;
+}
+section {
+  padding: 60px 0;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.accordion-header {
+  background-color: white;
+  color: #333;
+}
+
+.accordion-body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.intro-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.custom-navbar {
+  background-color: white;
+  height: auto;
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+
+.custom-navbar .navbar-brand .navbar-logo {
+  height: 100%;
+}
+
+.custom-navbar .nav-link {
+  color: #333;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #555;
+}
+
+.custom-navbar .navbar-nav .nav-item {
+  align-items: center;
+  display: flex;
+}
+
+.section-padding {
+  padding-top: 60px;
+}
+
+.spacing {
+  height: 60px;
+}
+
+.section-anchor {
+  position: relative;
+  display: block;
+  visibility: hidden;
+  margin-top: -60px; /* Adjust this value based on the height of your navbar */
+  height: 0;
+}
+
+
+.offset-anchor {
+  position: relative;
+  top: -194px; /* equal to the navbar height */
+  display: block;
+  visibility: hidden;
+}
+
+
+.extra-padding {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
